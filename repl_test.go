@@ -19,7 +19,7 @@ func TestCleanInput(t *testing.T) {
 		},
 		{
 			input:    "",
-			expected: []string{""},
+			expected: []string{},
 		},
 		{
 			input:    "single",

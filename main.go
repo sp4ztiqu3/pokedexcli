@@ -1,15 +1,14 @@
 package main
 
 import (
-	"fmt"
+	//"fmt"
 	"strings"
 )
 
 func main() {
-	fmt.Println("Hello, World!")
 }
 
 func cleanInput(text string) []string {
-	output := strings.Split(strings.ToLower(text), " ")
+	output := strings.Fields(strings.ToLower(text))
 	return output
 }
